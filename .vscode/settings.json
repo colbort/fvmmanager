@@ -1,0 +1,6 @@
+{
+  "dart.flutterSdkPath":"/Users/leofarias/fvm/versions/stable",
+  "search.exclude": {
+    "**/.fvm": true
+  }
+}
