@@ -1,6 +1,6 @@
 # Flutter Sidekick
 
-`Sidekick 是我在在原有的基础上添加了中文菜单`[原地址](https://github.com/leoafarias/sidekick)
+`Sidekick 是我在在原有的基础上添加了中文菜单`[源地址](https://github.com/leoafarias/sidekick)
 
 <!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
 [![All Contributors](https://img.shields.io/badge/all_contributors-7-orange.svg?style=flat-square)](#contributors-)
