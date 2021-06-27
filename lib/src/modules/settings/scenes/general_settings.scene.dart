@@ -104,7 +104,7 @@ class SettingsSectionGeneral extends StatelessWidget {
               items: S.delegate.supportedLocales.map((e) {
                 return DropdownMenuItem(
                   value: e.languageCode,
-                  child: Text(e.scriptCode),
+                  child: Text(S.of(context).languageName),
                 );
               }).toList(),
               onChanged: (languageCode) async {

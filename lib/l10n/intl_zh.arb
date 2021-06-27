@@ -125,11 +125,12 @@
   "aNewVersionOfSidekickIsAvailableUpdateinfolatest": "新版本的Sidekick可用({updateInfoLatest})",
   "thereWasAnIsssueOpeningSidekick": "打开Sidekick是遇到问题",
   "close": "关闭",
-  "language": "简体中文",
+  "language": "语言",
   "analyticsCrashReportSubtitle": "当flutter命令崩溃时，它会尝试向Google发送一个崩溃报告，以帮助Google在一段时间内改进flutter",
   "flutterSDKGlobalDescription": "为了访问Flutter设置，需要将Flutter sdk版本设置为全局版本",
   "theCurrentTipoftreeAbsoluteLatestCuttingEdgeBuildUsuallyFunctional": "The current tip-of-tree, absolute latest cutting edge build. Usually functional, though sometimes we accidentally break things.",
   "addYourFlutterProjectProjectsInformationWillBeDisplayedHere": "您的Fluuter项目信息将显示在这里",
   "youNeedToAddAFlutterProjectFirstPackageInformation": "您需要先添加一个flutter项目，软件包信息将显示在这里",
-  "viewsource": "查看"
+  "viewsource": "查看",
+  "languageName": "简体中文"
 }

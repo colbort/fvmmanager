@@ -14,23 +14,22 @@ import 'intl/messages_all.dart';
 
 class S {
   S();
-
+  
   static S current;
-
-  static const AppLocalizationDelegate delegate = AppLocalizationDelegate();
+  
+  static const AppLocalizationDelegate delegate =
+    AppLocalizationDelegate();
 
   static Future<S> load(Locale locale) {
-    final name = (locale.countryCode?.isEmpty ?? false)
-        ? locale.languageCode
-        : locale.toString();
-    final localeName = Intl.canonicalizedLocale(name);
+    final name = (locale.countryCode?.isEmpty ?? false) ? locale.languageCode : locale.toString();
+    final localeName = Intl.canonicalizedLocale(name); 
     return initializeMessages(localeName).then((_) {
       Intl.defaultLocale = localeName;
       S.current = S();
-
+      
       return S.current;
     });
-  }
+  } 
 
   static S of(BuildContext context) {
     return Localizations.of<S>(context, S);
@@ -1227,8 +1226,7 @@ class S {
   }
 
   /// `Sidekick version {updateInfoLatest} is now available.`
-  String sidekickVersionUpdateinfolatestIsNowAvailable(
-      Object updateInfoLatest) {
+  String sidekickVersionUpdateinfolatestIsNowAvailable(Object updateInfoLatest) {
     return Intl.message(
       'Sidekick version $updateInfoLatest is now available.',
       name: 'sidekickVersionUpdateinfolatestIsNowAvailable',
@@ -1268,8 +1266,7 @@ class S {
   }
 
   /// `A new version of Sidekick is available ({updateInfoLatest}).`
-  String aNewVersionOfSidekickIsAvailableUpdateinfolatest(
-      Object updateInfoLatest) {
+  String aNewVersionOfSidekickIsAvailableUpdateinfolatest(Object updateInfoLatest) {
     return Intl.message(
       'A new version of Sidekick is available ($updateInfoLatest).',
       name: 'aNewVersionOfSidekickIsAvailableUpdateinfolatest',
@@ -1329,12 +1326,10 @@ class S {
   }
 
   /// `The current tip-of-tree, absolute latest cutting edge build. Usually functional, though sometimes we accidentally break things.`
-  String
-      get theCurrentTipoftreeAbsoluteLatestCuttingEdgeBuildUsuallyFunctional {
+  String get theCurrentTipoftreeAbsoluteLatestCuttingEdgeBuildUsuallyFunctional {
     return Intl.message(
       'The current tip-of-tree, absolute latest cutting edge build. Usually functional, though sometimes we accidentally break things.',
-      name:
-          'theCurrentTipoftreeAbsoluteLatestCuttingEdgeBuildUsuallyFunctional',
+      name: 'theCurrentTipoftreeAbsoluteLatestCuttingEdgeBuildUsuallyFunctional',
       desc: '',
       args: [],
     );
@@ -1369,6 +1364,16 @@ class S {
       args: [],
     );
   }
+
+  /// `English`
+  String get languageName {
+    return Intl.message(
+      'English',
+      name: 'languageName',
+      desc: '',
+      args: [],
+    );
+  }
 }
 
 class AppLocalizationDelegate extends LocalizationsDelegate<S> {
@@ -1376,9 +1381,9 @@ class AppLocalizationDelegate extends LocalizationsDelegate<S> {
 
   List<Locale> get supportedLocales {
     return const <Locale>[
-      Locale.fromSubtags(languageCode: 'en', scriptCode: 'English'),
-      Locale.fromSubtags(languageCode: 'de', scriptCode: 'Deutsch'),
-      Locale.fromSubtags(languageCode: 'zh', scriptCode: '简体中文'),
+      Locale.fromSubtags(languageCode: 'en'),
+      Locale.fromSubtags(languageCode: 'de'),
+      Locale.fromSubtags(languageCode: 'zh'),
     ];
   }
 
