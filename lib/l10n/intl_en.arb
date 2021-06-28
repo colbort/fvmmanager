@@ -131,6 +131,5 @@
   "theCurrentTipoftreeAbsoluteLatestCuttingEdgeBuildUsuallyFunctional": "The current tip-of-tree, absolute latest cutting edge build. Usually functional, though sometimes we accidentally break things.",
   "addYourFlutterProjectProjectsInformationWillBeDisplayedHere": "Add your Flutter project Projects information will be displayed here.",
   "youNeedToAddAFlutterProjectFirstPackageInformation": "You need to add a Flutter project first. Package information will be displayed here.",
-  "viewsource": "View",
-  "languageName": "English"
+  "viewsource": "View"
 }

@@ -131,6 +131,5 @@
   "theCurrentTipoftreeAbsoluteLatestCuttingEdgeBuildUsuallyFunctional": "The current tip-of-tree, absolute latest cutting edge build. Usually functional, though sometimes we accidentally break things.",
   "addYourFlutterProjectProjectsInformationWillBeDisplayedHere": "您的Fluuter项目信息将显示在这里",
   "youNeedToAddAFlutterProjectFirstPackageInformation": "您需要先添加一个flutter项目，软件包信息将显示在这里",
-  "viewsource": "查看",
-  "languageName": "简体中文"
+  "viewsource": "查看"
 }

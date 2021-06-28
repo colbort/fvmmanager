@@ -104,7 +104,6 @@ class MessageLookup extends MessageLookupByLibrary {
     "installedVersions" : MessageLookupByLibrary.simpleMessage("Installed Versions"),
     "invalidChanel" : MessageLookupByLibrary.simpleMessage("Invalid chanel"),
     "language" : MessageLookupByLibrary.simpleMessage("Language"),
-    "languageName" : MessageLookupByLibrary.simpleMessage("English"),
     "later" : MessageLookupByLibrary.simpleMessage("Later"),
     "light" : MessageLookupByLibrary.simpleMessage("Light"),
     "likes" : MessageLookupByLibrary.simpleMessage("Likes"),
